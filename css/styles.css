@@ -256,7 +256,7 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-    margin-bottom: 8px
+    margin-bottom: 8px;
 }
 
 .our-team-teacher-text{
@@ -322,7 +322,7 @@ body{
     text-align: left;
     color: #2E2F42;
     text-transform: capitalize;
-    margin-bottom: 8px
+    margin-bottom: 8px;
 }
 
 .portfolio-text{
@@ -355,8 +355,8 @@ footer{
     color: #4D5AE5;
     text-transform: uppercase;
     text-decoration: none;
-    margin-bottom: 16px;
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-footer-span{
@@ -370,5 +370,5 @@ footer{
     letter-spacing: 0.02em;
     text-align: left;
     color: #F4F4FD;
-    max-width: 264px
+    max-width: 264px;
 }
