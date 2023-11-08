@@ -62,12 +62,6 @@ body{
     padding: 0 15px;
 }
 
-.container-line{
-    display: flex;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 .top-line-nav{
     display: flex;
     align-items: center;
