@@ -45,16 +45,27 @@ body{
     margin: 0 auto;    
 }
 
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 /* Стилі для header сторінки*/
+.top-line{
+    display: flex;
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .container-header{
     display: flex;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.top-line{
+.container-line{
     display: flex;
-    border-bottom: 1px solid #e7e9fc;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .top-line-nav{
