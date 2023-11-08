@@ -176,19 +176,24 @@ body{
 }
 
 /* Стилі для головного контенту розділу benefits*/
+.is-hidden {
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+  }
+
 .benefits-section{
+    padding: 120px 0;
 }
 
 .benefits{
     display: flex;
-    gap: 8px;
+    gap: 24px;
     height: 264px;
-    margin-left: 156px;
-    margin-top: 120px;
 }
 
-.benefits li{
-    width: 264px;
+.benefits-li{
+    width: calc((100% - 72px) / 4);
 }
 
 
@@ -200,6 +205,7 @@ body{
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .benefits-text{
