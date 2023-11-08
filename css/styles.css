@@ -38,25 +38,23 @@ body{
     margin: 0 auto;
 }
 
-.container{ 
-    max-width: 1440px;
+.container{    
+    max-width: 1158px;
     padding-left:0;  
     padding-right:0;  
-    margin-left:0;  
-    margin-right: auto;  
+    margin: 0 auto;  
 }
 
 /* Стилі для header сторінки*/
 .container-header{
     display: flex;
-    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
 .top-line{
     display: flex;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .top-line-nav{
@@ -220,7 +218,7 @@ body{
 /* Стилі для головного контенту розділу our-team*/
 .our-team{
     background-color: #F4F4FD;
-    height: 732px;
+    padding: 120px 0;
 }
 
 .our-team-title{
@@ -232,13 +230,12 @@ body{
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
-    padding-top: 100px;
+    margin-bottom: 72px;
 }
 
 .our-team-ul{
     display: flex;
-    gap: 32px;
-    margin-left: 156px;
+    gap: 24px;
     margin-top: 50px;
 }
 
@@ -248,6 +245,8 @@ body{
     display: flex;
     flex-direction: column;
     gap: 8px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-teacher-title{
@@ -258,7 +257,7 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-    padding-top: 24px;
+    margin-bottom: 8px
 }
 
 .our-team-teacher-text{
@@ -270,12 +269,21 @@ body{
     color: #434455;
 }
 
+.teacher-pib-posada{
+    padding: 32px 0;
+}
+
 /* Стилы роздылу portfolio*/
+.portfolio-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .portfolio-ul{
     display: flex;
     flex-wrap:wrap;
-    gap: 20px;
-    margin-left: 156px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-ul li{
@@ -283,10 +291,10 @@ body{
 }
 
 .portfolio-li{
+    width: calc((100% - 48px) / 3);
     display: flex;
     flex-direction: column;
     gap: 8px;
-    height: 420px;
 }
 
 .portfolio{
@@ -297,6 +305,13 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+.portfolio-app{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none; 
 }
 
 .portfolio-title{
@@ -308,7 +323,7 @@ body{
     text-align: left;
     color: #2E2F42;
     text-transform: capitalize;
-    padding: 20px 16px 0 16px;
+    margin-bottom: 8px
 }
 
 .portfolio-text{
@@ -325,10 +340,10 @@ body{
 footer{
     background-color: #2E2F42;
     height: 312px;
-       
 }
+
 .footer-logo{
-    padding-top: 100px;
+    padding: 100px 0 0 156px;
 }
 
 .logo-footer{
@@ -341,8 +356,8 @@ footer{
     color: #4D5AE5;
     text-transform: uppercase;
     text-decoration: none;
-    margin-left: 156px;
-     
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .logo-footer-span{
@@ -356,9 +371,5 @@ footer{
     letter-spacing: 0.02em;
     text-align: left;
     color: #F4F4FD;
-    margin-left: 156px;
-}
-
-.section{
-    padding: 120px 0;
+    max-width: 264px
 }
