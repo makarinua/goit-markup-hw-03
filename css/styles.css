@@ -38,11 +38,11 @@ body{
     margin: 0 auto;
 }
 
-.container{    
-    max-width: 1158px;
+.container{
+    width: 1158px;    
     padding-left:0;  
     padding-right:0;  
-    margin: 0 auto;  
+    margin: 0 auto;    
 }
 
 /* Стилі для header сторінки*/
@@ -174,7 +174,7 @@ body{
 }
 
 /* Стилі для головного контенту розділу benefits*/
-.is-hidden {
+.visually-hidden {
     visibility: hidden;
     pointer-events: none;
     position: absolute;
@@ -187,7 +187,6 @@ body{
 .benefits{
     display: flex;
     gap: 24px;
-    height: 264px;
 }
 
 .benefits-li{
@@ -342,8 +341,8 @@ footer{
     height: 312px;
 }
 
-.footer-logo{
-    padding: 100px 0 0 156px;
+.footer-text-logo{
+    padding: 100px 0;
 }
 
 .logo-footer{
