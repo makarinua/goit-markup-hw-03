@@ -1,11 +1,30 @@
+/* Скидання стилів браузера */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+ul, ol {
+	margin:0;
+	padding: 0;
+    list-style-type:none;
+}
+
+img{
+    display: block;
+}
+
 a{
     text-decoration: none;
 }
 
-ul{
-    list-style-type:none;
-}
-
+/* Основний контент сторінки */
 body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -13,6 +32,29 @@ body{
     background-color: #FFFFFF;
     font-weight: 400;
 } 
+
+.web-page{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container { 
+    max-width: 1440px;
+    padding-left:0;  
+    padding-right:0;  
+    margin-left:0;  
+    margin-right: auto;  
+}
+
+/* Стилі для header сторінки*/
+.top-line{
+    display: flex;
+    border-top: 1px solid #E7E9FC;
+}
+
+.top-line-nav{
+    display: flex;
+}
 
 .menu-logo{
     font-family: "Raleway", sans-serif;
@@ -24,6 +66,8 @@ body{
     color: #4D5AE5;
     text-transform: uppercase;
     text-decoration: none;
+    margin-left: 156px;
+    margin-top: 24px;
 }
 
 .menu-logo span{
@@ -31,6 +75,10 @@ body{
 }
 
 .main-meny{
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+    margin-top: 24px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -58,6 +106,13 @@ body{
     font-style: normal;
 }
 
+.contacts-meny-ul{
+    display: flex;
+    margin-top: 24px;
+    margin-left: 200px;
+    gap: 40px;
+}
+
 .address-link{
     text-decoration: none;
     color: #434455;
@@ -68,8 +123,11 @@ body{
     color: #404BBF;
 }
 
+/* Стилі для головного контенту розділу hero image*/
 .hero-image{
+    margin-top: 24px;
     background-color: #2E2F42;
+    height: 600px;
 }
 
 .hero-image-title {
@@ -80,6 +138,7 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    padding-top: 188px;
 }
 
 .hero-button{
@@ -88,10 +147,14 @@ body{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: left;
+    text-align: center;
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor:pointer;
+    width: 169px;
+    height: 56px;
+    margin-left: 636px;
+    margin-top: 120px;
 }
 
 .hero-button:hover,
@@ -99,9 +162,22 @@ body{
     background-color: #404BBF;
 }
 
-.benefits{
-
+/* Стилі для головного контенту розділу benefits*/
+.benefits-section{
 }
+
+.benefits{
+    display: flex;
+    gap: 8px;
+    height: 264px;
+    margin-left: 156px;
+    margin-top: 120px;
+}
+
+.benefits li{
+    width: 264px;
+}
+
 
 .benefits-title{
     font-family: 'Roboto', sans-serif;
@@ -122,8 +198,10 @@ body{
     color: #434455;
 }
 
+/* Стилі для головного контенту розділу our-team*/
 .our-team{
     background-color: #F4F4FD;
+    height: 732px;
 }
 
 .our-team-title{
@@ -135,10 +213,22 @@ body{
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
+    padding-top: 100px;
+}
+
+.our-team-ul{
+    display: flex;
+    gap: 32px;
+    margin-left: 156px;
+    margin-top: 50px;
 }
 
 .our-team-teacher{
     background-color: #FFFFFF;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .our-team-teacher-title{
@@ -149,6 +239,7 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    padding-top: 24px;
 }
 
 .our-team-teacher-text{
@@ -158,6 +249,25 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+}
+
+/* Стилы роздылу portfolio*/
+.portfolio-ul{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    margin-left: 156px;
+}
+
+.portfolio-ul li{
+    border: 1px solid #E7E9FC;
+}
+
+.portfolio-li{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 420px;
 }
 
 .portfolio{
@@ -179,6 +289,7 @@ body{
     text-align: left;
     color: #2E2F42;
     text-transform: capitalize;
+    padding: 20px 16px 0 16px;
 }
 
 .portfolio-text{
@@ -188,10 +299,17 @@ body{
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
+    padding: 0 16px 0 16px;
 }
 
+/* Стилы роздылу footer*/
 footer{
     background-color: #2E2F42;
+    height: 312px;
+       
+}
+.footer-logo{
+    padding-top: 100px;
 }
 
 .logo-footer{
@@ -204,6 +322,8 @@ footer{
     color: #4D5AE5;
     text-transform: uppercase;
     text-decoration: none;
+    margin-left: 156px;
+     
 }
 
 .logo-footer-span{
@@ -217,4 +337,9 @@ footer{
     letter-spacing: 0.02em;
     text-align: left;
     color: #F4F4FD;
+    margin-left: 156px;
+}
+
+.section{
+    padding: 120px 0;
 }
