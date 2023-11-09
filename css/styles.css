@@ -45,7 +45,6 @@ body{
 
 /* Стилі для header сторінки*/
 .top-line{
-    display: flex;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -112,8 +111,7 @@ body{
     display: flex;
     gap: 40px;
     margin-top: 24px;
-    margin-left: 200px;
-    
+    margin-left: 200px;    
 }
 
 .address-link{
@@ -161,6 +159,7 @@ body{
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 48px;
 }
 
 .hero-button:hover,
@@ -324,6 +323,7 @@ body{
     color: #2E2F42;
     text-transform: capitalize;
     margin-bottom: 8px;
+    padding: 0 16px 0 16px;
 }
 
 .portfolio-text{
