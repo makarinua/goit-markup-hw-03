@@ -1,5 +1,4 @@
 /* Скидання стилів браузера */
-
 *,
 *::before,
 *::after {
@@ -26,13 +25,10 @@ a{
 
 /* Основний контент сторінки */
 body{
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
     font-weight: 400;
-    max-width: 1440px;
-    margin: 0 auto;
 } 
 
 .container{
@@ -55,7 +51,6 @@ body{
 
 .container-header{
     display: flex;
-    margin: 0 auto;
     padding: 0 15px;
 }
 
@@ -247,7 +242,6 @@ body{
 
 .our-team-teacher{
     background-color: #FFFFFF;
-    height: 380px;
     display: flex;
     flex-direction: column;
     gap: 8px;
