@@ -123,7 +123,6 @@ body{
 
 /* Стилі для головного контенту розділу hero image*/
 .hero-image{
-    padding: 188px 0;
     background-color: #2E2F42;
 }
 
@@ -176,10 +175,6 @@ body{
     overflow: hidden;
   }
 
-.benefits-section{
-    padding: 120px 0;
-}
-
 .benefits{
     display: flex;
     gap: 24px;
@@ -211,7 +206,6 @@ body{
 /* Стилі для головного контенту розділу our-team*/
 .our-team{
     background-color: #F4F4FD;
-    padding: 120px 0;
 }
 
 .our-team-title{
@@ -263,11 +257,6 @@ body{
 }
 
 /* Стилы роздылу portfolio*/
-.portfolio-section{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
 .portfolio{
     font-size: 36px;
     font-weight: 700;
@@ -288,6 +277,10 @@ body{
 .portfolio-li{
     width: calc((100% - 48px) / 3);
     border: 1px solid #E7E9FC;
+}
+
+.portfolio-li img{
+    width: 100%;
 }
 
 .portfolio-app{
