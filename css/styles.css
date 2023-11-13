@@ -29,6 +29,7 @@ body{
     color: #434455;
     background-color: #FFFFFF;
     font-weight: 400;
+    font-style: normal;
 } 
 
 .container{
@@ -57,7 +58,6 @@ body{
 
 .top-line-nav{
     display: flex;
-    gap: 40px;
     align-items: center;
 }
 
@@ -104,7 +104,6 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
 }
 
 .contacts-meny-ul{
@@ -140,6 +139,7 @@ body{
 }
 
 .hero-button{
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -224,7 +224,6 @@ body{
 .our-team-ul{
     display: flex;
     gap: 24px;
-    margin-top: 50px;
 }
 
 .our-team-teacher{
@@ -278,7 +277,6 @@ body{
 
 .portfolio-li{
     width: calc((100% - 48px) / 3);
-    border: 1px solid #E7E9FC;
 }
 
 .portfolio-li img{
